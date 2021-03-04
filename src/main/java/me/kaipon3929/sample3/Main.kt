@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin
 class Main: JavaPlugin() {
     override fun onEnable() {
         logger.info("プラグインが起動したよ")
-        server.pluginManager.registerEvents(EventLister, this)
+        server.pluginManager.registerEvents(EventListener, this)
     }
 
     override fun onDisable() {

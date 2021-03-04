@@ -1,4 +1,4 @@
 name: Sample3
 version: @version@
-main: me.kaipon3929.sample3.Sample3plugin
+main: me.kaipon3929.sample3.Main
 api-version: 1.16

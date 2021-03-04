@@ -5,7 +5,7 @@ import org.bukkit.event.Listener
 import org.bukkit.event.player.PlayerJoinEvent
 import org.bukkit.event.player.PlayerQuitEvent
 
-object EventLister: Listener {
+object EventListener: Listener {
     @EventHandler
     fun on(e: PlayerJoinEvent) {
         val p = e.player
